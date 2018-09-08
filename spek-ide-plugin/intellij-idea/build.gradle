@@ -3,7 +3,7 @@ apply from: "$rootDir/gradle/common/idea-plugin.gradle"
 
 intellij {
     version = ijSdkVersion
-    plugins = [ijSdkKotlinPluginCoords]
+    plugins = [ijSdkKotlinPluginCoords, 'gradle', 'android']
 }
 
 dependencies {
